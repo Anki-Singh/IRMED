@@ -19,6 +19,12 @@
   margin-left: 5rem;
   width: 13rem;
 }
+@media only screen and (max-width: 600px) {
+  .top--logo {
+    margin-left: 3rem;
+    width: 10rem;
+  }
+}
 
 .navigation {
   position: relative;

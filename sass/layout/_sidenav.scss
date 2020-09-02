@@ -16,6 +16,10 @@
         margin-top: 0;
         margin-left: 5rem;
         width: 13rem;
+        @media only screen and (max-width:600px){
+            margin-left: 3rem;
+            width: 10rem;
+        }
 
     }
 }

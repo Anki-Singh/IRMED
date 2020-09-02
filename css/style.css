@@ -49,6 +49,10 @@
     margin-top: 0;
     margin-left: 5rem;
     width: 13rem; }
+    @media only screen and (max-width: 600px) {
+      .top--logo {
+        margin-left: 3rem;
+        width: 10rem; } }
 
 .navigation {
   position: relative;
@@ -229,6 +233,10 @@ body {
   @media only screen and (max-width: 600px) {
     .main--heading {
       font-size: 2rem; } }
+  @media only screen and (max-width: 500px) {
+    .main--heading {
+      font-size: 1.5rem;
+      font-weight: bolder; } }
 
 .main--content {
   width: 90%;
